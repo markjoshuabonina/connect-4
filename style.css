@@ -1,0 +1,27 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+#winner{
+    padding: 50px 0 50px 0;
+}
+#gameBoard {
+    height: 420px;
+    width: 500px;
+    margin:0  auto;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+
+    text-align: center;
+}
